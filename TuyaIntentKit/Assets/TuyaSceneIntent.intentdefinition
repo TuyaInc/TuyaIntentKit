@@ -169,6 +169,8 @@
 			</dict>
 			<key>INIntentRestrictions</key>
 			<integer>0</integer>
+			<key>INIntentTitle</key>
+			<string>Smart Life</string>
 			<key>INIntentTitleID</key>
 			<string>lBEq22</string>
 			<key>INIntentType</key>

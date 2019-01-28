@@ -22,8 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9A8B2D4243284F88E5A327E9 /* Pods_TuyaIntentKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B15D9650FC0CBB1E02B5FD /* Pods_TuyaIntentKit_Tests.framework */; };
-		F37B47342BB9D3A585EE4647 /* Pods_TuyaIntentKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799D596940F279E7E000C560 /* Pods_TuyaIntentKit_Example.framework */; };
+		91696DE027E1A878B0FF83D7 /* libPods-TuyaIntentKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFC46B5EE6247AB770294C3 /* libPods-TuyaIntentKit_Example.a */; };
+		CC0C319E6832C25D1C85CA3B /* libPods-TuyaIntentKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0F903843C703AC54420A6D /* libPods-TuyaIntentKit_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15B15D9650FC0CBB1E02B5FD /* Pods_TuyaIntentKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuyaIntentKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16869A3B549A3A3F1019D703 /* Pods-TuyaIntentKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaIntentKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TuyaIntentKit_Tests/Pods-TuyaIntentKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C0F903843C703AC54420A6D /* libPods-TuyaIntentKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TuyaIntentKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C552A1E7A06BED136C14767 /* TuyaIntentKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TuyaIntentKit.podspec; path = ../TuyaIntentKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* TuyaIntentKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuyaIntentKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,7 +60,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		799D596940F279E7E000C560 /* Pods_TuyaIntentKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuyaIntentKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFC46B5EE6247AB770294C3 /* libPods-TuyaIntentKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TuyaIntentKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B221E760E7127F541A8E73B /* Pods-TuyaIntentKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaIntentKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TuyaIntentKit_Tests/Pods-TuyaIntentKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8B8C366688FEF55E505BFDDF /* Pods-TuyaIntentKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaIntentKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TuyaIntentKit_Example/Pods-TuyaIntentKit_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				F37B47342BB9D3A585EE4647 /* Pods_TuyaIntentKit_Example.framework in Frameworks */,
+				91696DE027E1A878B0FF83D7 /* libPods-TuyaIntentKit_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				9A8B2D4243284F88E5A327E9 /* Pods_TuyaIntentKit_Tests.framework in Frameworks */,
+				CC0C319E6832C25D1C85CA3B /* libPods-TuyaIntentKit_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,8 +122,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				799D596940F279E7E000C560 /* Pods_TuyaIntentKit_Example.framework */,
-				15B15D9650FC0CBB1E02B5FD /* Pods_TuyaIntentKit_Tests.framework */,
+				7AFC46B5EE6247AB770294C3 /* libPods-TuyaIntentKit_Example.a */,
+				2C0F903843C703AC54420A6D /* libPods-TuyaIntentKit_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -205,7 +205,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				61B9E0A7392580755D419AED /* [CP] Embed Pods Frameworks */,
+				D168870FFD8E586D0BB9372C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +245,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = panyfun;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 94JFPTRDN5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -336,7 +339,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		61B9E0A7392580755D419AED /* [CP] Embed Pods Frameworks */ = {
+		D168870FFD8E586D0BB9372C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,18 +347,18 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TuyaIntentKit_Example/Pods-TuyaIntentKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TuyaIntentKit/TuyaIntentKit.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-TuyaIntentKit_Example/Pods-TuyaIntentKit_Example-resources.sh",
+				"${PODS_ROOT}/../../TuyaIntentKit/Assets/TuyaSceneIntent.intentdefinition",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TuyaIntentKit.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TuyaSceneIntent.intentdefinition",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TuyaIntentKit_Example/Pods-TuyaIntentKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TuyaIntentKit_Example/Pods-TuyaIntentKit_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -495,6 +498,7 @@
 			baseConfigurationReference = A1B2D5C46D39D4E3C0261F08 /* Pods-TuyaIntentKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94JFPTRDN5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TuyaIntentKit/TuyaIntentKit-Prefix.pch";
 				INFOPLIST_FILE = "TuyaIntentKit/TuyaIntentKit-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 8B8C366688FEF55E505BFDDF /* Pods-TuyaIntentKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94JFPTRDN5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TuyaIntentKit/TuyaIntentKit-Prefix.pch";
 				INFOPLIST_FILE = "TuyaIntentKit/TuyaIntentKit-Info.plist";
