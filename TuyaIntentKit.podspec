@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TuyaIntentKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary			 = 'intent kit from Tuya'
   s.homepage         = 'https://www.tuya.com'
   s.author           = { 'TuyaInc' => 'https://www.tuya.com' }
