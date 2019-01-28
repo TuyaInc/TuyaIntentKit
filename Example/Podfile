@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/TuyaInc/TYPublicSpecs.git'
+
+platform :ios, '8.0'
+
+target 'TuyaIntentKit_Example' do
+  pod 'TuyaIntentKit', :path => '../'
+
+  target 'TuyaIntentKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
