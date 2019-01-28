@@ -8,7 +8,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   
-  s.frameworks = 'UIKit', 'Foundation','Intents','IntentsUI'
+  s.frameworks = 'UIKit', 'Foundation'
+  s.weak_frameworks = 'Intents','IntentsUI'
 
   s.source_files = 'TuyaIntentKit/Classes/**/*', 'TuyaIntentKit/Assets/**/*.intentdefinition'
   s.resources = ['TuyaIntentKit/Assets/*.{png,xib,plist,xcassets,bundle,intentdefinition}']
