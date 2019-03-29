@@ -8,7 +8,7 @@
 
 @implementation TuyaSceneIntent
 
-@dynamic sceneName, sceneIdKey, iconUrl, userID, currentHomeID;
+@dynamic sceneName, sceneIdKey, iconUrl, userID, currentHomeID, sceneId;
 
 @end
 

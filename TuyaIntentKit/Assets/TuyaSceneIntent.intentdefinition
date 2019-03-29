@@ -9,9 +9,9 @@
 	<key>INIntentDefinitionSystemVersion</key>
 	<string>18C54</string>
 	<key>INIntentDefinitionToolsBuildVersion</key>
-	<string>10A255</string>
+	<string>10B61</string>
 	<key>INIntentDefinitionToolsVersion</key>
-	<string>10.0</string>
+	<string>10.1</string>
 	<key>INIntents</key>
 	<array>
 		<dict>
@@ -20,12 +20,12 @@
 			<key>INIntentDescriptionID</key>
 			<string>DfYTQ4</string>
 			<key>INIntentLastParameterTag</key>
-			<integer>5</integer>
+			<integer>6</integer>
 			<key>INIntentName</key>
 			<string>TuyaScene</string>
 			<key>INIntentParameterCombinations</key>
 			<dict>
-				<key>sceneName</key>
+				<key>sceneIdKey,userID,currentHomeID,iconUrl,sceneId,sceneName</key>
 				<dict>
 					<key>INIntentParameterCombinationIsPrimary</key>
 					<true/>
@@ -103,6 +103,18 @@
 					<key>INIntentParameterType</key>
 					<string>String</string>
 				</dict>
+				<dict>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>6</integer>
+					<key>INIntentParameterName</key>
+					<string>sceneId</string>
+					<key>INIntentParameterSupportsMultipleValues</key>
+					<false/>
+					<key>INIntentParameterTag</key>
+					<integer>6</integer>
+					<key>INIntentParameterType</key>
+					<string>String</string>
+				</dict>
 			</array>
 			<key>INIntentResponse</key>
 			<dict>
@@ -170,13 +182,13 @@
 			<key>INIntentRestrictions</key>
 			<integer>0</integer>
 			<key>INIntentTitle</key>
-			<string>Smart Life</string>
+			<string>smart life, smart living</string>
 			<key>INIntentTitleID</key>
 			<string>lBEq22</string>
 			<key>INIntentType</key>
 			<string>Custom</string>
 			<key>INIntentUserConfirmationRequired</key>
-			<true/>
+			<false/>
 			<key>INIntentVerb</key>
 			<string>Run</string>
 		</dict>

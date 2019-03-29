@@ -16,6 +16,7 @@ API_AVAILABLE(ios(12.0), watchos(5.0))
 @property (readwrite, copy, nullable, nonatomic) NSString *iconUrl;
 @property (readwrite, copy, nullable, nonatomic) NSString *userID;
 @property (readwrite, copy, nullable, nonatomic) NSString *currentHomeID;
+@property (readwrite, copy, nullable, nonatomic) NSString *sceneId;
 
 @end
 
